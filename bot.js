@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = "#";
 client.on("message", message => {
 
-            if (message.content.startsWith(prefix + "bc")) {
+            if (message.content.startsWith(prefix + "fivem designers")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' '); 
